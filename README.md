@@ -1,4 +1,6 @@
-A Simple Hashmap in C specifically for int to int mapping. It uses an array list under the hood (as opposed to linked-list)
+A Simple Hashmap in C specifically for int to int mapping. It uses an array list under the hood (as opposed to linked-list).
+
+For a generic hashmap consider using the hashmap implementation by https://github.com/nothings found at https://github.com/nothings/stb/blob/master/stb_ds.h
 
 ## Example Usage
 ```

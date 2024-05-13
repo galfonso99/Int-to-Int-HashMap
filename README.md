@@ -1,6 +1,7 @@
 A Simple Hashmap in C specifically for int to int mapping. It uses an array list under the hood (as opposed to linked-list)
 
 ## Example Usage
+```
 int capacity = 10;
 hashmap * map = create_hashmap(capacity);
 hashmap_set(map, 5, 25);
@@ -24,3 +25,4 @@ hashmap_iterate(map, accumulate_entry, &acc);
 printf("Sum total: %d\n", acc);
 
 hashmap_free(map);
+```
